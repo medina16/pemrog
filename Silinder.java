@@ -32,6 +32,7 @@ public class Silinder implements iSilinder{
         return luasLingkaran() * tinggi;
     }
     public static void main(String[] args){
+        
         ArrayList<Silinder> list_silinder = new ArrayList<Silinder>();
         Scanner masukan = new Scanner(System.in);
 
